@@ -1,0 +1,33 @@
+{
+  "name": "secuuth-jwtutils-js-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-dev": "tsc -W"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/base64url": "^2.0.0",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/jwk-to-pem": "^2.0.1",
+    "@types/node-fetch": "^3.0.3",
+    "@types/node-rsa": "^1.1.1",
+    "axios": "^0.19.2",
+    "base64url": "^3.0.1",
+    "buffer": "^6.0.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "node-fetch": "^3.0.0",
+    "node-rsa": "^1.1.1"
+  }
+}
