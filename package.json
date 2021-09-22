@@ -1,8 +1,9 @@
 {
-  "name": "secuuth-jwtutils-js-sdk",
+  "name": "secuuth-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
