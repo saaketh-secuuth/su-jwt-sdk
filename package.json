@@ -1,8 +1,8 @@
 {
-  "name": "secuuth-sdk",
+  "name": "secuuth-jwt-sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "prepublish": "npm run build",
